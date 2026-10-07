@@ -47,7 +47,9 @@ dev = [
 tring = "tring.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/anzal1/tring"
+Homepage = "https://github.com/halleylabs/tring"
+Repository = "https://github.com/halleylabs/tring"
+Issues = "https://github.com/halleylabs/tring/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/tring"]

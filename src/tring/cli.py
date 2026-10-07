@@ -22,7 +22,7 @@ commands:
             tring eval evals/ --help
   version   print the installed version
 
-docs: https://github.com/anzal1/tring
+docs: https://github.com/halleylabs/tring
 """
 
 

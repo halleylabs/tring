@@ -1,10 +1,12 @@
 # Tring 🔔
 
+<sub>A <a href="https://halleylabs.dev">Halley</a> project</sub>
+
 **The open-source voice agent stack. One agent contract, any runtime, honest costs.**
 
 [![PyPI](https://img.shields.io/pypi/v/tring)](https://pypi.org/project/tring/)
 [![Python](https://img.shields.io/pypi/pyversions/tring)](https://pypi.org/project/tring/)
-[![CI](https://github.com/anzal1/tring/actions/workflows/ci.yml/badge.svg)](https://github.com/anzal1/tring/actions/workflows/ci.yml)
+[![CI](https://github.com/halleylabs/tring/actions/workflows/ci.yml/badge.svg)](https://github.com/halleylabs/tring/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 Tring is the sound of an arriving call. Define a voice agent once, in plain YAML, and run it on any of three architectures without rewriting anything:
@@ -19,9 +21,9 @@ Same tools, same analytics, same cost attribution on every runtime. Switching a 
 pip install tring
 ```
 
-[![Tring Studio demo: a live agent booking an appointment through a choreographed tool call, the flow builder, and session replay](docs/assets/tring-demo.gif)](https://github.com/anzal1/tring/releases/download/v0.4.0/tring-demo.mp4)
+[![Tring Studio demo: a live agent booking an appointment through a choreographed tool call, the flow builder, and session replay](docs/assets/tring-demo.gif)](https://github.com/halleylabs/tring/releases/download/v0.4.0/tring-demo.mp4)
 
-<p align="center"><em>Live inference, real costs — <a href="https://github.com/anzal1/tring/releases/download/v0.4.0/tring-demo.mp4">watch the full demo with narration</a></em></p>
+<p align="center"><em>Live inference, real costs — <a href="https://github.com/halleylabs/tring/releases/download/v0.4.0/tring-demo.mp4">watch the full demo with narration</a></em></p>
 
 Built from lessons learned running voice agents across more than a million production telephony calls, in multiple languages, where callers code-switch mid-sentence and two seconds of silence means a hangup.
 
@@ -275,7 +277,7 @@ pip install "tring[transports]"
 tring studio
 ```
 
-Opens at `http://localhost:8900` ([watch the demo](https://github.com/anzal1/tring/releases/download/v0.4.0/tring-demo.mp4)):
+Opens at `http://localhost:8900` ([watch the demo](https://github.com/halleylabs/tring/releases/download/v0.4.0/tring-demo.mp4)):
 
 - **Build**: the agent designer (form or raw YAML), a live test console with typed turns or **push-to-talk from your microphone**, tool-call cards showing the choreographed waiting messages, and live cost lines with the estimated-fraction honesty chip.
 - **Flow**: draw conversation flows on a canvas (say / ask / branch / tool / handoff / end) and compile them into numbered, transition-explicit agent instructions. The graph round-trips losslessly in the spec's metadata, and nothing saves without your explicit action.
